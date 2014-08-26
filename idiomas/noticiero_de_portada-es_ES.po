@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-06 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:76
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:45
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:61
+msgid "Date"
+msgstr "Fecha"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:77
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:129
+msgid "News Title"
+msgstr "Titulo de la noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:79
+msgid "link"
+msgstr "Enlace"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:121
+msgid "Field"
+msgstr "Campo"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:122
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:40
+msgid "Value"
+msgstr "Valor"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:123
+msgid "Preview"
+msgstr "Previsualización"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:133
+msgid "Hot News"
+msgstr "Noticias de portada"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:145
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:78
+msgid "News content"
+msgstr "Contenido de la noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:149
+msgid "News date"
+msgstr "Fecha de la noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:153
+msgid "News with link"
+msgstr "Noticia con enlace"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:157
+msgid "Link text"
+msgstr "Texto del enlace"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:161
+msgid "Link url"
+msgstr "URL del enlace"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:165
+msgid "Link navigates in the same window"
+msgstr "El enlace se abre en la misma ventana"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:169
+msgid "News with highlight"
+msgstr "Noticia destacada"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:181
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:53
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:182
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:394
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:54
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:63
+msgid "Continue"
+msgstr "Continuar"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:400
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:96
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:111
+msgid "Front Page News"
+msgstr "Noticias de portada"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:408
+msgid "Update News Item"
+msgstr "Modificar noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:411
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:413
+msgid "Operation"
+msgstr "Operación"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:411
+msgid "was successfully executed"
+msgstr "se ejecutó correctamente"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:413
+msgid "failed"
+msgstr "ha fallado"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:39
+msgid "Parameter"
+msgstr "Parametro"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:45
+msgid "News items to be displayed at front page"
+msgstr "Número de noticias a mostrar en portada"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:60
+msgid "Parameters have been saved"
+msgstr "Los parámetros se han guardado"
+
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:38
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:54
+msgid "Title"
+msgstr "Titulo"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:41
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:57
+msgid "The news"
+msgstr "Contenido"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:111
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:118
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\noticiero_de_portada.php:106
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:406
+msgid "Create News Item"
+msgstr "Crear noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:112
+msgid "There are currently"
+msgstr "Actualmente existen"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\listado_admin_noticias_portada.php:112
+msgid "news items"
+msgstr "noticias"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\noticiero_de_portada.php:53
+msgid "Read old news items"
+msgstr "Leer noticias antiguas"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\noticiero_de_portada.php:105
+msgid "Front Page News Items Administration"
+msgstr "Administración de noticias de portada"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\noticiero_de_portada.php:105
+msgid "Hot News Admin"
+msgstr "Administración de noticias"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\noticiero_de_portada.php:107
+msgid "Hot News Setup"
+msgstr "Configuración de noticias"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:146
+msgid "Max length"
+msgstr "Longitud máxima"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:146
+msgid "characters"
+msgstr "caracteres"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:146
+msgid "Remaining"
+msgstr "Restantes"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:237
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:86
+msgid "Next errors have been found"
+msgstr "Se han producido los siguientes errores"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:240
+msgid "You must provide a TITLE for the news"
+msgstr "Debes proporcionar el TITULAR de la noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:244
+msgid "You must provide the NEWS"
+msgstr "Debes proporcionar la NOTICIA"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:248
+msgid "You must provide the DATE of the news"
+msgstr "Debes proporcionar la FECHA de la noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:253
+msgid "You must provide the TEXT of the LINK"
+msgstr "Debes proporcionar el texto del ENLACE de la noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_noticias.php:257
+msgid "You must provide the URL of the LINK"
+msgstr "Debes proporcionar la URL del enlace de la noticia"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:89
+msgid "You must provide the number of news items to display in the front page"
+msgstr "Debes indicar el número de noticias a mostrar en portada"
+
+#: C:\xampp\htdocs\in2training\wp-content\plugins\noticiero_de_portada\formulario_de_parametros_noticias.php:54
+msgid "Page id where old news can be read"
+msgstr "Identificador de la página para mostrar noticias antiguas"
+
+msgid "This plugin has been developed by"
+msgstr "Este plugin ha sido creado por"
+
+msgid "We don't want to charge you for using our plugins. If you find this plugin valuable for you please, consider making a donation. We will be able to improve our plugins and developing many more ones"
+msgstr "No queremos cobrar por nuestros plugins. Si este plugin es valioso para ti, por favor, considera hacer una donación. Con ello seguiremos mejorando nuestros plugins y creando muchos más"
+
+msgid "Visit us, make comments and request more plugins at"
+msgstr "Visítanos, haznos comentarios y pídenos cosas en"
+
+msgid "To enable the hot news viewer, just add the"
+msgstr "Para visualizar las noticias en portada añade el"
+
+msgid "To enable the old news viewer, just add the"
+msgstr "Para visualizar el histórico de noticias (hemeroteca) añade el"
+
+msgid "wherever you need"
+msgstr "donde desees"
+
+msgid "Text fot the link to navigate to old news"
+msgstr "Texto para el enlace a noticias antiguas"
+
+msgid "Empty means value by default"
+msgstr "Vacio significa dejar valor por defecto"

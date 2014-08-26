@@ -1,0 +1,140 @@
+.ndport_columna_titular_listado_simplificado{
+	width: 20%;
+}
+.ndport_columna_noticia_listado_simplificado{
+	width: 70%;
+}
+.ndport_columna_fecha_listado_simplificado{
+	width: 10%;
+}
+.ndport_cabecera_listado_simplificado{
+	height: 28px;
+	position: relative;
+	border-radius: 3px 3px 0px 0px;
+	background: linear-gradient(to bottom, #f7f7f7 0%, #e6e6e6 100%) repeat scroll 0% 0% transparent;
+}
+.ndport_label_campo_formulario{
+	border-bottom: 1px solid #E0E0E0;
+	vertical-align: top;
+}
+.ndport_campo_formulario_noticia_de_portada{
+	width: 85%;
+	border: thin solid #0074A2 !important;
+	margin: 0px !important;
+}
+.ndport_boton_accion{
+	background: #E0E0E0;
+	color: #0074A2;
+	line-height: 29px;
+
+	margin-left: 4px;
+	padding: 4px 8px;
+	position: relative;
+	top: -1px;
+	text-decoration: none;
+	border: 0px none;
+	border-radius: 2px;
+	text-shadow: none;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+.ndport_boton_accion:hover{
+	background: #2EA2CC;
+	color: #FFF;
+}
+.ndport_titular_seccion{
+	font-size: 23px !important;
+}
+.ndport_contador_noticias{
+	font-size: 12px;
+	font-style: italic;
+	margin-left: 12px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+
+}
+.ndport_contador_caracteres{
+	border: none !important;
+	padding: 0px;
+	background-color: transparent !important;
+	color: green !important;
+	width: 30px !important;
+	font-size: 13px !important;
+	box-shadow: none !important;
+}
+.ndport_contador_caracteres_limite{
+	border: none !important;
+	padding: 0px;
+	background-color: #ffaaaa !important;
+	color: red !important;
+	font-weight: bold;
+	width: 30px !important;
+	font-size: 13px !important;
+	box-shadow: none !important;
+}
+.ndport_ordenacion_titular_seccion{
+	border: none; 
+	float: left; width: 50%;
+}
+.ndport_ordenacion_creado_por{
+	border: none; 
+	float: right; width: 45%;
+	margin-right: 10px;
+}
+.ndport_plugin_creado_por{
+	line-height: 29px;
+	font-weight: bold;
+	text-align: center;
+}
+.ndport_plugin_creado_por_nosotros{
+	font-style: italic;
+	text-decoration: none;
+}
+.ndport_texto_donaciones{
+	font-size: 11px;
+	text-align: center;
+	background-color: #FFFFDD;
+	margin-bottom: 0px !important;
+}
+.ndport_enlace_donaciones{
+	font-size: 11px;
+	text-align: center;
+}
+.ndport_enlace_donaciones_web{
+	font-weight: bold !important;
+	text-decoration: none;
+}
+.ndport_imagen_donacion{
+	float: left;
+}
+.ndport_texto_donaciones_nomostrarmas{
+	color: #aaaaaa;
+	background-color: #FFFFDD;
+	font-size: 10px;
+	text-align: right;
+	margin-top: 0px !important;
+}
+.ndport_como_usar_shortcodes{
+	border: thin solid navy;
+	font-size: 12px;
+	margin: 20px 10px 0px 0px;
+	padding: 5px;
+	background-color: #fefefe;
+}
+.ndport_asteriscos_obligatoriedad{
+	font-size: 10px;
+	color: red;
+	float: right;
+	font-style: italic;
+}
+.ndport_texto_info{
+	font-size: 9px;
+	color: navy;
+	font-style: italic;
+}
+
+
+
+
+

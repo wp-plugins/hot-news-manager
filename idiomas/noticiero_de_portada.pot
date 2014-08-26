@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-06 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Date"
+msgstr ""
+
+msgid "News Title"
+msgstr ""
+
+msgid "link"
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Hot News"
+msgstr ""
+
+msgid "News content"
+msgstr ""
+
+msgid "News date"
+msgstr ""
+
+msgid "News with link"
+msgstr ""
+
+msgid "Link text"
+msgstr ""
+
+msgid "Link url"
+msgstr ""
+
+msgid "Link navigates in the same window"
+msgstr ""
+
+msgid "News with highlight"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Front Page News"
+msgstr ""
+
+msgid "Update News Item"
+msgstr ""
+
+msgid "create news item"
+msgstr ""
+
+msgid "Operation"
+msgstr ""
+
+msgid "was successfully executed"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "Parameter"
+msgstr ""
+
+msgid "News items to be displayed at front page"
+msgstr ""
+
+msgid "Parameters have been saved"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "The news"
+msgstr ""
+
+msgid "Create News Item"
+msgstr ""
+
+msgid "There are currently"
+msgstr ""
+
+msgid "news items"
+msgstr ""
+
+msgid "Read old news items"
+msgstr ""
+
+msgid "Front Page News Items Administration"
+msgstr ""
+
+msgid "Hot News Admin"
+msgstr ""
+
+msgid "Hot News Setup"
+msgstr ""
+
+msgid "Max length"
+msgstr ""
+
+msgid "characters"
+msgstr ""
+
+msgid "Remaining"
+msgstr ""
+
+msgid "Next errors have been found"
+msgstr ""
+
+msgid "You must provide a TITLE for the news"
+msgstr ""
+
+msgid "You must provide the NEWS"
+msgstr ""
+
+msgid "You must provide the DATE of the news"
+msgstr ""
+
+msgid "You must provide the TEXT of the LINK"
+msgstr ""
+
+msgid "You must provide the URL of the LINK"
+msgstr ""
+
+msgid "You must provide the number of news items to display in the front page"
+msgstr ""
+
+msgid "Page id where old news can be read"
+msgstr ""
+
+msgid "This plugin has been developed by"
+msgstr ""
+
+msgid "We don't want to charge you for using our plugins. If you find this plugin valuable for you please, consider making a donation. We will be able to improve our plugins and developing many more ones"
+msgstr ""
+
+msgid "Visit us, make comments and request more plugins at"
+msgstr ""
+
+msgid "To enable the hot news viewer, just add the"
+msgstr ""
+
+msgid "To enable the old news viewer, just add the"
+msgstr ""
+
+msgid "wherever you need"
+msgstr ""
+
+msgid "Text fot the link to navigate to old news"
+msgstr ""
+
+msgid "Empty means value by default"
+msgstr ""
