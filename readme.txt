@@ -2,7 +2,7 @@
 Contributors: Jorge Cerrejon Rubayo - In2Design (<a href="http://www.in2design.es">in2design.es</a>)
 Donate link: http://www.in2design.es/en/donar/
 Tags: noticia, noticias, noticiero, portada, hemeroteca, news, breaking, hot, frontpage, home, homepage, manager, management, admin, administration, highlight
-Requires at least: 3.1
+Requires at least: 3.4
 Tested up to: 3.9.2
 Stable tag: 1.0
 License: GPLv2 or later
