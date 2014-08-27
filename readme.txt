@@ -12,7 +12,7 @@ This plugin will let the wordpress site administrator create and manage news ite
 
 == Description ==
 
-<i>puedes leer la descrición en español en la lengueta "Other Notes".</i>
+Puedes leer la descrición en español en la lengueta "Other Notes".
 
 This plugin has 2 sections, one to publish the hot news items at front page and old news items at any other page and other section to manage the entire system. 
 The first is used directly by typing the proper shortcode wherever the administrator decides, and the second is a full management section at admin panel.
@@ -51,7 +51,7 @@ This plugin comes in english and provides these other languages:
 
 == Descripción (SPA)==
 
-<i>This is the spanish translation of the description.</i>
+This is the spanish translation of the description.
 
 Este plugin tiene dos secciones, una para publicar las noticias de portada en la página principal (o en cualquier otra a su elección) y otra sección para gestionar 
 todo el sistema. La primera se puede utilizar directamente mediante la utilización del shortcode correspondiente allí donde decida el administrador del sitio, y la 
