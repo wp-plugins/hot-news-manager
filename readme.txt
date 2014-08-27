@@ -12,7 +12,9 @@ This plugin will let the wordpress site administrator create and manage news ite
 
 == Description ==
 
-Puedes leer la descrición en español en la lengueta "Other Notes".
+NOTA: Puedes leer la descrición en español en la lengüeta "Other Notes".
+
+= Description =
 
 This plugin has 2 sections, one to publish the hot news items at front page and old news items at any other page and other section to manage the entire system. 
 The first is used directly by typing the proper shortcode wherever the administrator decides, and the second is a full management section at admin panel.
@@ -23,17 +25,17 @@ The administrator will get a list of the current news in system, letting him cha
 and offers a fully functional previewer to anticipate the outcome. Each news item will have (as a maximum of fields):
 
 Most relevant fields:
-- main title
-- body
-- date
+* main title
+* body
+* date
 
 Secondary fields:
-- link to get more info (such as "read more" or "visit") with text, url and the place to be opened (self page or new tab).
-- highlight; this will add a special border with shadow effect to make user focus on it.
+* link to get more info (such as "read more" or "visit") with text, url and the place to be opened (self page or new tab).
+* highlight; this will add a special border with shadow effect to make user focus on it.
 
 The setup form will let the administrator manage:
-- the number of news items to be displayed at the front page.
-- the plugin will display the message/link "read old news", taking the user to a specific place where the old news should be displayed. This place
+* the number of news items to be displayed at the front page.
+* the plugin will display the message/link "read old news", taking the user to a specific place where the old news should be displayed. This place
 will own an unique post/page id that must be provided to the hot news management plugin.
 
 In order to work properly, the plugin will create a special table in your wp database (that will be deleted if you uninstall the plugin. 
@@ -47,11 +49,11 @@ It is hard to continue development and support for this free plugin without cont
 
 This plugin comes in english and provides these other languages:
 
-- spanish
+* spanish
 
 == Descripción (SPA)==
 
-This is the spanish translation of the description.
+NOTE: This is the spanish translation of the description.
 
 Este plugin tiene dos secciones, una para publicar las noticias de portada en la página principal (o en cualquier otra a su elección) y otra sección para gestionar 
 todo el sistema. La primera se puede utilizar directamente mediante la utilización del shortcode correspondiente allí donde decida el administrador del sitio, y la 
@@ -63,17 +65,17 @@ El administrador obtiene un listado de las noticias actuales dentro del sistema,
 y ofrece un previsualizador totalmente funcional para validar la noticia antes de publicarla. Cada noticia tendrá (como máximo de campos):
 
 Los campos más importantes:
-- título de la noticia
-- cuerpo de la noticia
-- fecha de la noticia
+* título de la noticia
+* cuerpo de la noticia
+* fecha de la noticia
 
 Campos secundarios:
-- enlace a más información (tal como "leer más" o "visitanos") configurable con texto, url y ventana en la que abrirse (la propia ventana o una nueva).
-- resalto; añadirá un reborde especial sombreado para destacar la noticia y centrar la atención del visitante.
+* enlace a más información (tal como "leer más" o "visitanos") configurable con texto, url y ventana en la que abrirse (la propia ventana o una nueva).
+* resalto; añadirá un reborde especial sombreado para destacar la noticia y centrar la atención del visitante.
 
 El formulario de configuración permitirá al administrador gestionar:
-- el número de noticias a mostrar en la página principal
-- El plugin mostrará en enlace "Leer noticias antiguas", llevando al usuario al lugar donde se motrará la hemeroteca. Esta página tendrá su identificador 
+* el número de noticias a mostrar en la página principal
+* El plugin mostrará en enlace "Leer noticias antiguas", llevando al usuario al lugar donde se motrará la hemeroteca. Esta página tendrá su identificador 
 único de página que deberemos proporcionar al gestor de noticias.
 
 Para poder funcionar, el plugin creará una nueva tabla dentro de la base de datos de wordpress (que se eliminará si el plugin se desinstala. La desactivación
