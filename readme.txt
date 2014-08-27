@@ -31,7 +31,7 @@ Secondary fields:
 
 The setup form will let the administrator manage:
 - the number of news items to be displayed at the front page.
-- the plugin will display the message/link "read old news", taking the user to a specific place (where the old news should be displayed). This place
+- the plugin will display the message/link "read old news", taking the user to a specific place where the old news should be displayed. This place
 will own an unique post/page id that must be provided to the hot news management plugin.
 
 In order to work properly, the plugin will create a special table in your wp database (that will be deleted if you uninstall the plugin. 
@@ -46,6 +46,39 @@ It is hard to continue development and support for this free plugin without cont
 This plugin comes in english and provides these other languages:
 
 - spanish
+
+== Descripción (SPA)==
+
+Este plugin tiene dos secciones, una para publicar las noticias de portada en la página principal (o en cualquier otra a su elección) y otra sección para gestionar 
+todo el sistema. La primera se puede utilizar directamente mediante la utilización del shortcode correspondiente allí donde decida el administrador del sitio, y la 
+segunda es una completa sección de gestión dentro del panel de administración.
+
+De ahora en adelante, nos referiremos tan solo a la sección de gestión.
+
+El administrador obtiene un listado de las noticias actuales dentro del sistema, permitiendole modificarlas o crear otras nuevas. El formulario es sencillo,
+y ofrece un previsualizador totalmente funcional para validar la noticia antes de publicarla. Cada noticia tendrá (como máximo de campos):
+
+Los campos más importantes:
+- título de la noticia
+- cuerpo de la noticia
+- fecha de la noticia
+
+Campos secundarios:
+- enlace a más información (tal como "leer más" o "visitanos") configurable con texto, url y ventana en la que abrirse (la propia ventana o una nueva).
+- resalto; añadirá un reborde especial sombreado para destacar la noticia y centrar la atención del visitante.
+
+El formulario de configuración permitirá al administrador gestionar:
+- el número de noticias a mostrar en la página principal
+- El plugin mostrará en enlace "Leer noticias antiguas", llevando al usuario al lugar donde se motrará la hemeroteca. Esta página tendrá su identificador 
+único de página que deberemos proporcionar al gestor de noticias.
+
+Para poder funcionar, el plugin creará una nueva tabla dentro de la base de datos de wordpress (que se eliminará si el plugin se desinstala. La desactivación
+no eliminará la tabla). El plugin no puede funcionar sin dicha tabla.
+
+= El plugin Hot News Manager Necesita tu ayuda =
+
+Es difícil continuar desarrollando y dando soporte a nuestros plugins gratuitos sin usuarios que contribuyan. No queremos cobrar por nuestros plugins. Si este 
+plugin es valioso para ti, por favor, considera hacer una donación. Con ello seguiremos mejorando nuestros plugins y creando muchos más.
 
 == Installation ==
 
