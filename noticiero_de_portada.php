@@ -2,7 +2,7 @@
 /*
 * Plugin Name: Hot News Manager
 * Description: Manage your own news items and display them at your front page or wherever you need. Easy management, easy publish and easy access to old news items.
-* Version: 1.0
+* Version: 1.1
 * Author: In2Design
 * Author URI: http://www.in2design.es
 */
