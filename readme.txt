@@ -126,6 +126,9 @@ No. Freeware version has not this feature. Donors will get this capability and o
 
 == Changelog ==
 
+= 1.1 =
+* improved the printing of header/title for the news items section.
+
 = 1.0 =
 * First non-beta version (baseline for the next versions)
 
