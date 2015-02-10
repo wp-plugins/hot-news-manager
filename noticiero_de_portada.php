@@ -9,32 +9,36 @@
 
 wp_enqueue_style('noticiero_de_portada_styles.css', plugins_url('/estilos/noticiero_de_portada_styles.css', __FILE__ ));
 
-global $wpdb, $nombre_de_tabla, $idpagina_noticias_antiguas, $texto_pagina_noticias_antiguas;
+global $wpdb, $nombre_de_tabla, $idpagina_noticias_antiguas, $texto_pagina_noticias_antiguas, $noticiasDibujadas, $enlaceHemerotecaDibujado, $noticiasHemerotecaDibujada;
 $nombre_de_tabla = $wpdb->prefix . "noticias_de_portada";
 $idpagina_noticias_antiguas = get_option('idpagina_noticias_antiguas', '0');
 $texto_pagina_noticias_antiguas = get_option('texto_pagina_noticias_antiguas', '');
 
 function ndport_dibuja_noticias_en_portada(){
-	global $wpdb, $nombre_de_tabla, $idpagina_noticias_antiguas;
+	global $wpdb, $nombre_de_tabla, $idpagina_noticias_antiguas, $noticiasDibujadas, $enlaceHemerotecaDibujado;
+	
+	ob_start();
+	
 	$limite_noticias = get_option('numero_noticias_en_portada', '5');//este valor debe ser recogido de parametrización
 	$noticias = $wpdb->get_results( "SELECT * FROM " . $nombre_de_tabla . " ORDER BY id DESC LIMIT " . $limite_noticias);
 
-?>
-	<div class="ndport_center_content3">
-<?php
-	
+	$noticiasDibujadas = '';
+
+
+	$noticiasDibujadas .= "<div class=\"ndport_center_content3\">";
+
 	foreach($noticias as $noticia){ 
 
 		if ($noticia->flag_highlight){
-			echo "<div class=\"ndport_news_box\">\n";
-			echo 	"<div class=\"ndport_resPortada\">\n";
+			$noticiasDibujadas .= "<div class=\"ndport_news_box\">\n";
+			$noticiasDibujadas .= "<div class=\"ndport_resPortada\">\n";
 		} else {
-			echo "<div class=\"leftbox_right\">\n";
-			echo 	"<div class=\"ndport_news_box\">\n";
-		}
-		echo 			"<div class=\"ndport_date\">" . $noticia->fecha . "</div>\n";
-		echo 			"<p class=\"ndport_news_title\">" . $noticia->titular . "</p>\n";
-		echo 			"<p class=\"ndport_news_content\">" . $noticia->la_noticia . "</p>\n";
+			$noticiasDibujadas .= "<div class=\"leftbox_right\">\n";
+			$noticiasDibujadas .= "<div class=\"ndport_news_box\">\n";
+	}
+	$noticiasDibujadas .= "<div class=\"ndport_date\">" . $noticia->fecha . "</div>\n";
+	$noticiasDibujadas .= "<p class=\"ndport_news_title\">" . $noticia->titular . "</p>\n";
+	$noticiasDibujadas .= "<p class=\"ndport_news_content\">" . $noticia->la_noticia . "</p>\n";
 		
 		if ($noticia->misma_ventana_enlace){
 			$destino_navegacion = "_self";
@@ -43,57 +47,59 @@ function ndport_dibuja_noticias_en_portada(){
 		}
 		
 		if ($noticia->flag_enlace){
-			echo 		"<div class=\"ndport_news_read_more\"><a href=\"" . $noticia->url_enlace. "\" target=\"" . $destino_navegacion . "\">". $noticia->texto_enlace . "</a></div>\n";
+			$noticiasDibujadas .= "<div class=\"ndport_news_read_more\"><a href=\"" .  $noticia->url_enlace. "\" target=\"" . $destino_navegacion . "\">". $noticia->texto_enlace . "</a></div>\n";
 		}
-		echo		"</div><!-- ndport_resPortada o ndport_news_box-->";
-		echo	"</div><!-- ndport_news_box o leftbox_right-->";
-	} ?>
+		$noticiasDibujadas .= "</div><!-- ndport_resPortada o ndport_news_box-->";
+		$noticiasDibujadas .= "</div><!-- ndport_news_box o leftbox_right-->";
+	}
 
-	</div>
-<?php
+	$noticiasDibujadas .= "</div>";
+	
 	ndport_dibuja_enlace_hemeroteca();
 
+	return $noticiasDibujadas . $enlaceHemerotecaDibujado;
+	
 }//final de ndport_dibuja_noticias_en_portada
 
 add_shortcode('ndp_portada', 'ndport_dibuja_noticias_en_portada');
 
 function ndport_dibuja_enlace_hemeroteca(){
-	global $idpagina_noticias_antiguas, $texto_pagina_noticias_antiguas;
-	if ($idpagina_noticias_antiguas > 0){?>
-		<div style="text-align: right;">
-			<a href="<?= get_site_url() ?>/?page_id=<?= $idpagina_noticias_antiguas ?>">
-				<?php if ($texto_pagina_noticias_antiguas != "") {?>
-					<?= $texto_pagina_noticias_antiguas ?>
-				<?php } else { ?>
-					<?= __('Read old news items', 'noticiero_de_portada') ?> &gt;&gt;&gt;
-				<?php } ?>
-			</a>
-		</div>
-<?php
+	global $idpagina_noticias_antiguas, $texto_pagina_noticias_antiguas, $enlaceHemerotecaDibujado;
+	$enlaceHemerotecaDibujado = '';
+	if ($idpagina_noticias_antiguas > 0){
+		$enlaceHemerotecaDibujado .= '<div style="text-align: right;">';
+		$enlaceHemerotecaDibujado .= '	<a href="'. get_site_url() . '/?page_id=' . $idpagina_noticias_antiguas . '">';
+		if ($texto_pagina_noticias_antiguas != "") {
+			$enlaceHemerotecaDibujado .= $texto_pagina_noticias_antiguas;
+		} else {
+			$enlaceHemerotecaDibujado .= __('Read old news items', 'noticiero_de_portada'). '&gt;&gt;&gt';
+		}
+		$enlaceHemerotecaDibujado .= '	</a>';
+		$enlaceHemerotecaDibujado .= '</div>';
 	}//final de si hay hemeroteca
 }//final de ndport_dibuja_enlace_hemeroteca
 
 function ndport_dibuja_noticias_en_hemeroteca(){
-	global $wpdb, $nombre_de_tabla;
+	global $wpdb, $nombre_de_tabla, $noticiasHemerotecaDibujada;
 	//$limite_noticias = get_option('numero_noticias_en_portada', '5');//este valor debe ser recogido de parametrización
 	$noticias = $wpdb->get_results( "SELECT * FROM " . $nombre_de_tabla . " ORDER BY id DESC");
+	ob_start();
+	$noticiasHemerotecaDibujada = "";
 
-?>
-
-<?php
+	$noticiasHemerotecaDibujada .= "<div class=\"ndport_center_content3\">";
 	
 	foreach($noticias as $noticia){ 
 
 		if ($noticia->flag_highlight){
-			echo "<div class=\"ndport_news_box\">\n";
-			echo 	"<div class=\"ndport_resPortada\">\n";
+			$noticiasHemerotecaDibujada .=  "<div class=\"ndport_news_box\">\n";
+			$noticiasHemerotecaDibujada .=  "<div class=\"ndport_resPortada\">\n";
 		} else {
-			echo "<div class=\"leftbox_right\">\n";
-			echo 	"<div class=\"ndport_news_box\">\n";
+			$noticiasHemerotecaDibujada .=  "<div class=\"leftbox_right\">\n";
+			$noticiasHemerotecaDibujada .=  "<div class=\"ndport_news_box\">\n";
 		}
-		echo 			"<div class=\"ndport_date\">" . $noticia->fecha . "</div>\n";
-		echo 			"<p class=\"ndport_news_title\">" . $noticia->titular . "</p>\n";
-		echo 			"<p class=\"ndport_news_content\">" . $noticia->la_noticia . "</p>\n";
+		$noticiasHemerotecaDibujada .=  "<div class=\"ndport_date\">" . $noticia->fecha . "</div>\n";
+		$noticiasHemerotecaDibujada .=  "<p class=\"ndport_news_title\">" . $noticia->titular . "</p>\n";
+		$noticiasHemerotecaDibujada .=  "<p class=\"ndport_news_content\">" . $noticia->la_noticia . "</p>\n";
 		
 		if ($noticia->misma_ventana_enlace){
 			$destino_navegacion = "_self";
@@ -102,13 +108,15 @@ function ndport_dibuja_noticias_en_hemeroteca(){
 		}
 		
 		if ($noticia->flag_enlace){
-			echo 		"<div class=\"ndport_news_read_more\"><a href=\"" . $noticia->url_enlace. "\" target=\"" . $destino_navegacion . "\">". $noticia->texto_enlace . "</a></div>\n";
+			$noticiasHemerotecaDibujada .=  "<div class=\"ndport_news_read_more\"><a href=\"" . $noticia->url_enlace. "\" target=\"" . $destino_navegacion . "\">". $noticia->texto_enlace . "</a></div>\n";
 		}
-		echo		"</div><!-- ndport_resPortada o ndport_news_box-->";
-		echo	"</div><!-- ndport_news_box o leftbox_right-->";
-	} ?>
+		$noticiasHemerotecaDibujada .=  "</div><!-- ndport_resPortada o ndport_news_box-->";
+		$noticiasHemerotecaDibujada .=  "</div><!-- ndport_news_box o leftbox_right-->";
+	} 
 
-<?php
+	$noticiasHemerotecaDibujada .= "</div>";
+
+	return $noticiasHemerotecaDibujada;
 
 }//final de ndport_dibuja_noticias_en_hemeroteca
 
